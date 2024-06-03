@@ -11,7 +11,7 @@ const btLongo = document.querySelector('.app__card-button--longo');
 
 function alterarContexto(contexto) {
     html.setAttribute('data-contexto', contexto);
-    imagem.setAttribute('scr', `./imagens/${contexto}.png`);
+    imagem.setAttribute('src', `./imagens/${contexto}.png`);
 }
 
 btFoco.addEventListener('click', function() {
